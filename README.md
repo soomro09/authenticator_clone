@@ -5,9 +5,13 @@ A lightweight, Google Authenticator–style two-factor authentication (2FA) app 
 ## 🚀 Features
 
 ✅ Add accounts via TOTP secret key
+
 ✅ Generate time-based one-time passwords (TOTP)
+
 ✅ Base32 secret decoding
+
 ✅ Live-updating, auto-refreshing codes
+
 ✅ Clean, minimal UI
 
 ## 🛠️ Tech Stack
