@@ -1,18 +1,30 @@
-# swiftpass
+# 🔑 SwiftPass (authenticator_clone)
 
-A new Flutter project.
+A lightweight, Google Authenticator–style two-factor authentication (2FA) app built with Flutter. Generates time-based one-time passwords (TOTP) for your accounts, entirely on-device.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+✅ Add accounts via TOTP secret key
+✅ Generate time-based one-time passwords (TOTP)
+✅ Base32 secret decoding
+✅ Live-updating, auto-refreshing codes
+✅ Clean, minimal UI
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Framework:** Flutter (Dart)
+- **TOTP Generation:** otp
+- **Encoding:** base32
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-"# authenticator_clone" 
+## 📦 Getting Started
+
+```
+git clone https://github.com/soomro09/authenticator_clone.git
+cd authenticator_clone
+flutter pub get
+flutter run
+```
+
+## ⚠️ Disclaimer
+
+This project was built for learning purposes as a clone of Google Authenticator's core functionality. Not affiliated with Google.
